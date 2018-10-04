@@ -1,0 +1,21 @@
+
+<div>
+  
+      <h3>
+        {{cityDetails.cityName}}
+        {{cityDetails.stateCode}}
+      </h3>
+
+
+    
+  
+   <input placeholder="Enter City,Statecode,Countrycode" [(ngModel)]="searchText"/>
+
+    
+
+   <button (click)="getWeather()"> Lets Get Weather</button>
+
+  
+</div>
+
+<app-weather-forecast [weatherForecast]="weatherForecasts"> </app-weather-forecast>

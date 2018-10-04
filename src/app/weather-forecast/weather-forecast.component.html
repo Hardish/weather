@@ -1,0 +1,20 @@
+
+  
+     <div>
+          <div *ngFor='let forecast of weatherForecast' >
+             
+            <div>
+              <span>Max Temp:</span>
+              {{forecast.max_temp}}
+              <span>Daytime: </span>
+              {{forecast.datetime}}
+              <span>wind_gust_spd:</span>
+              {{forecast.wind_gust_spd}}
+              <span>wind_spd: </span>
+              {{forecast.wind_spd}}
+              <span>wind_dir:</span>
+              {{forecast.wind_dir}}
+             
+            </div>
+          </div>
+          </div>
